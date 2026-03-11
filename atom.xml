@@ -26,4 +26,22 @@
     <title>Hello World</title>
     <updated>2026-03-11T13:01:39.354Z</updated>
   </entry>
+  <entry>
+    <author>
+      <name>John Doe</name>
+    </author>
+    <content>
+      <![CDATA[<p>这是我测试代码高亮的一篇文章。</p><pre><code class="language-python">class Solution:    def twoSum(self, nums: List[int], target: int) -&gt; List[int]:        hashmap = {}        for i, num in enumerate(nums):            if target - num in hashmap:                return [hashmap[target - num], i]            hashmap[num] = i        return []</code></pre>]]>
+    </content>
+    <id>http://example.com/2026/03/11/LeetCode%E6%B5%8B%E8%AF%95/</id>
+    <link href="http://example.com/2026/03/11/LeetCode%E6%B5%8B%E8%AF%95/"/>
+    <published>2026-03-11T04:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>这是我测试代码高亮的一篇文章。</p>
+<pre><code class="language-python">class Solution:
+    def twoSum(self, nums: List[int], target: int) -&gt; List[int]]]>
+    </summary>
+    <title>LeetCode测试</title>
+    <updated>2026-03-11T13:03:54.515Z</updated>
+  </entry>
 </feed>

@@ -15,6 +15,19 @@
     </entry>
     
     
+    
+    <entry>
+      <title>LeetCode测试</title>
+      <link href="/2026/03/11/LeetCode%E6%B5%8B%E8%AF%95/"/>
+      <url>/2026/03/11/LeetCode%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>这是我测试代码高亮的一篇文章。</p><pre><code class="language-python">class Solution:    def twoSum(self, nums: List[int], target: int) -&gt; List[int]:        hashmap = {}        for i, num in enumerate(nums):            if target - num in hashmap:                return [hashmap[target - num], i]            hashmap[num] = i        return []</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
   
   
 </search>
